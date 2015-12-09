@@ -32,6 +32,17 @@ header {
 
 #top{
   height: 15%;
+  margin: auto;
+  text-align: center;
+}
+
+#top img {
+  width: 15vh;
+  height: 15vh;
+  margin: auto;
+  margin: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #bottom{
@@ -46,6 +57,7 @@ header {
   width: 80vw;
   height: 25vh;
   border: 2px solid black;
+  font-size: 1em;
 }
 
 #bottom button{
