@@ -33,10 +33,28 @@ header {
   width: 49%;
 }
 
-#right img{
+#track{
   height: 85vh;
   width: 100%;
   opacity: .19;
+}
+
+#album0{
+  z-index: 3;
+  background-color: blue;
+  width: 27vh;
+  height: 27vh;
+  position: absolute;
+  vertical-align: middle;
+  top: 8%;
+  right: 15%;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+#album0 img{
+  width: 27vh;
+  height: 27vh;
 }
 
 #album1{
@@ -46,10 +64,15 @@ header {
   height: 27vh;
   position: absolute;
   vertical-align: middle;
-  top: 8%;
-  right: 17%;
+  top: 37%;
+  right: 15%;
   margin-top: 5px;
   display: inline-block;
+}
+
+#album1 img{
+  width: 27vh;
+  height: 27vh;
 }
 
 #album2{
@@ -59,23 +82,15 @@ header {
   height: 27vh;
   position: absolute;
   vertical-align: middle;
-  top: 37%;
-  right: 17%;
+  bottom: 5%;
+  right: 15%;
   margin-top: 5px;
   display: inline-block;
 }
 
-#album3{
-  z-index: 3;
-  background-color: blue;
+#album2 img{
   width: 27vh;
   height: 27vh;
-  position: absolute;
-  vertical-align: middle;
-  bottom: 5%;
-  right: 17%;
-  margin-top: 5px;
-  display: inline-block;
 }
 
 #text{
