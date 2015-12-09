@@ -39,6 +39,45 @@ header {
   opacity: .19;
 }
 
+#album1{
+  z-index: 3;
+  background-color: blue;
+  width: 27vh;
+  height: 27vh;
+  position: absolute;
+  vertical-align: middle;
+  top: 8%;
+  right: 17%;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+#album2{
+  z-index: 3;
+  background-color: blue;
+  width: 27vh;
+  height: 27vh;
+  position: absolute;
+  vertical-align: middle;
+  top: 37%;
+  right: 17%;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+#album3{
+  z-index: 3;
+  background-color: blue;
+  width: 27vh;
+  height: 27vh;
+  position: absolute;
+  vertical-align: middle;
+  bottom: 5%;
+  right: 17%;
+  margin-top: 5px;
+  display: inline-block;
+}
+
 #text{
   width: 50%;
   margin: 0 auto;
