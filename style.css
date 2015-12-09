@@ -1,0 +1,77 @@
+@font-face{
+  font-family: 'Avenir';
+  src: url('fonts/AvenirNextLTPro-Regular.otf');
+}
+
+body{
+  font-family: Avenir;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eeeeee;
+}
+
+header {
+  background-color: #9b9b8c;
+  height: 7%;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: inline-block;
+  box-shadow: 0 2px 1px rgba(0,0,0,.7)
+}
+
+#right{
+  width: 50%;
+  float: right;
+}
+
+#left{
+  float: left;
+  width: 49%;
+}
+
+#right img{
+  height: 85vh;
+  width: 100%;
+  opacity: .19;
+}
+
+#text{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: #4d0267;
+  margin-top: 30%;
+}
+
+#trackBin{
+  font-size: 4em;
+}
+
+#chooseTracks{
+  background-color: #353526;
+  border: none;
+  font-size: 1.2em;
+  color: #eeeeee;
+  font-weight: lighter;
+  padding: 7px 15px 7px 15px;
+  width: 55%;
+  border-radius: 5px;
+}
+
+footer {
+  clear: both;
+  background-color: #9b9b8c;
+  height: 7%;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: 0 auto;
+  /*display: inline-block;*/
+  box-shadow: 0 2px 1px rgba(0,0,0,.7);
+  color: #eeeeee;
+  padding: 10px;
+  padding-left: 50px;
+}
