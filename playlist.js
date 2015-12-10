@@ -7,6 +7,7 @@ $(document).ready(function(){
     console.log(getter)
     var albums = [];
       getter.done(function(response){
+        console.log(response)
         for (var i = 0; i < response["results"].length; i++) {
           albums.push(response["results"][i].cover_art.toString());
           $("#top").append("<img id=album" + i + " src=images/" + albums[i] + ">")
@@ -19,7 +20,7 @@ $(document).ready(function(){
         })
         $("#album1").click(function(){
           $("#text").append("Black Uhuru: Red\n\n")
-          $("#album0").remove()
+          $("#album1").remove()
           console.log("clicked")
         })
         $("#album2").click(function(){
@@ -46,9 +47,12 @@ $("#clearTracks").click(function(){
 $("#submitBin").click(function(){
     var sender = $.ajax({
       url: "https://lit-fortress-6467.herokuapp.com/post",
-      method: "POST",
-      dataType: {}
+      method: "POST"
     });
+    sender.done(function(response){
+      console.log(response);
+      alert(response);
+    })
 
-      console.log(sender.responseText);
+      // console.log(sender);
 })
